@@ -3,7 +3,6 @@ RUN apt-get update \
 && apt-get install -y --no-install-recommends \
 unzip \
 git \
-curl \
 wget \
 python
 
