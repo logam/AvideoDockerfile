@@ -6,6 +6,8 @@ git \
 wget \
 python
 
+EXPOSE 8080
+
 RUN apt-get update \
 && apt-get install -y --no-install-recommends \
 apache2 \
