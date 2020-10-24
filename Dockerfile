@@ -4,23 +4,17 @@ RUN apt-get update \
 unzip \
 git \
 wget \
-python
-
-EXPOSE 8080
-
-RUN apt-get update \
-&& apt-get install -y --no-install-recommends \
-apache2 \
-php7.4 \
-libapache2-mod-php7.4 \
-php7.4-mysql \
-php7.4-curl \
-php7.4-gd \
-php7.4-intl \
-mysql-server \
-mysql-client \
+python \
 ffmpeg \
-libimage-exiftool-perl\
+libimage-exiftool-perl
+
+
+
+
+
+
+
+
 && cd /var/www/html \
 && sudo git clone https://github.com/DanielnetoDotCom/YouPHPTube.git \
 && cd /var/www/html \
