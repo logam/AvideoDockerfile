@@ -15,10 +15,10 @@ libimage-exiftool-perl
 
 
 && cd /var/www/html \
-&& sudo git clone https://github.com/DanielnetoDotCom/YouPHPTube.git \
+&& git clone https://github.com/DanielnetoDotCom/YouPHPTube.git \
 && cd /var/www/html \
-&& sudo git clone https://github.com/DanielnetoDotCom/YouPHPTube-Encoder.git \
-&& sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl \
-&& sudo chmod a+rx /usr/local/bin/youtube-dl \
-&& sudo a2enmod rewrite
+&& git clone https://github.com/DanielnetoDotCom/YouPHPTube-Encoder.git \
+&& curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl \
+&& chmod a+rx /usr/local/bin/youtube-dl \
+&& a2enmod rewrite
 
